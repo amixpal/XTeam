@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030CD1E635091CFD6FA2A4CC /* Pods_XTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD1B9312D2097B48E6AE57 /* Pods_XTeam.framework */; };
+		2F05DBFA2317853200BBA739 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05DBF92317853200BBA739 /* Utils.swift */; };
+		2F361E1A22F8F74100C825DF /* LauncherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F361E1922F8F74100C825DF /* LauncherViewController.swift */; };
+		2F7E828722F8E38600A06EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E828622F8E38600A06EFF /* AppDelegate.swift */; };
+		2F7E828C22F8E38600A06EFF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E828A22F8E38600A06EFF /* Login.storyboard */; };
+		2F7E828E22F8E38800A06EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E828D22F8E38800A06EFF /* Assets.xcassets */; };
+		2F7E829122F8E38800A06EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E828F22F8E38800A06EFF /* LaunchScreen.storyboard */; };
+		59A6D619237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D5FD237CE5A8006D08D6 /* Radomir Tinkov - Gilroy-BlackItalic.otf */; };
+		59A6D61A237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D5FE237CE5A8006D08D6 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */; };
+		59A6D61B237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D5FF237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-BoldItalic.otf */; };
+		59A6D61C237CE5AF006D08D6 /* UltimaProBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D600237CE5A9006D08D6 /* UltimaProBlack.otf */; };
+		59A6D61D237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D601237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */; };
+		59A6D61E237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D602237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-UltraLight.otf */; };
+		59A6D61F237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D603237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-Thin.otf */; };
+		59A6D620237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D604237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-Black.otf */; };
+		59A6D621237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D605237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-LightItalic.otf */; };
+		59A6D622237CE5AF006D08D6 /* UltimaProLt-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D606237CE5AA006D08D6 /* UltimaProLt-Italic.otf */; };
+		59A6D623237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D607237CE5AB006D08D6 /* Radomir Tinkov - Gilroy-ThinItalic.otf */; };
+		59A6D624237CE5AF006D08D6 /* UltimaPro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D608237CE5AB006D08D6 /* UltimaPro-BoldItalic.otf */; };
+		59A6D625237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D609237CE5AB006D08D6 /* Radomir Tinkov - Gilroy-Light.otf */; };
+		59A6D626237CE5AF006D08D6 /* UltimaProBlack-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D60A237CE5AB006D08D6 /* UltimaProBlack-BlackItalic.otf */; };
+		59A6D627237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D60B237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-Bold.otf */; };
+		59A6D628237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D60C237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-RegularItalic.otf */; };
+		59A6D629237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D60D237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-Heavy.otf */; };
+		59A6D62A237CE5AF006D08D6 /* UltimaProLt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D60E237CE5AC006D08D6 /* UltimaProLt.otf */; };
+		59A6D62B237CE5AF006D08D6 /* UltimaPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D60F237CE5AD006D08D6 /* UltimaPro-Bold.otf */; };
+		59A6D62C237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D610237CE5AD006D08D6 /* Radomir Tinkov - Gilroy-SemiBold.otf */; };
+		59A6D62D237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D611237CE5AD006D08D6 /* Radomir Tinkov - Gilroy-ExtraBold.otf */; };
+		59A6D62E237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D612237CE5AE006D08D6 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */; };
+		59A6D62F237CE5AF006D08D6 /* UltimaPro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D613237CE5AE006D08D6 /* UltimaPro.otf */; };
+		59A6D630237CE5AF006D08D6 /* UltimaPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D614237CE5AE006D08D6 /* UltimaPro-Italic.otf */; };
+		59A6D631237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D615237CE5AE006D08D6 /* Radomir Tinkov - Gilroy-Medium.otf */; };
+		59A6D632237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D616237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */; };
+		59A6D633237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D617237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Regular.otf */; };
+		59A6D634237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59A6D618237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-MediumItalic.otf */; };
+		B86A3D84233FB3E700BFBAB1 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A3D83233FB3E700BFBAB1 /* RoundedView.swift */; };
+		B86A3D98233FEB8100BFBAB1 /* BlurredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A3D97233FEB8100BFBAB1 /* BlurredView.swift */; };
+		B86E00412341BB320070ED37 /* StylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E003F2341BB320070ED37 /* StylistTableViewCell.swift */; };
+		B86E00422341BB320070ED37 /* StylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86E00402341BB320070ED37 /* StylistTableViewCell.xib */; };
+		B8E04FF6235AE14100AAB587 /* StylistCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E04FF5235AE14100AAB587 /* StylistCalendarViewController.swift */; };
+		B8E04FF9235AE33A00AAB587 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E04FF7235AE33A00AAB587 /* CalendarCollectionViewCell.swift */; };
+		B8E04FFA235AE33A00AAB587 /* CalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E04FF8235AE33A00AAB587 /* CalendarCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F05DBF92317853200BBA739 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		2F361E1922F8F74100C825DF /* LauncherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewController.swift; sourceTree = "<group>"; };
+		2F7E828322F8E38600A06EFF /* XTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7E828622F8E38600A06EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F7E828B22F8E38600A06EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		2F7E828D22F8E38800A06EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F7E829022F8E38800A06EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F7E829222F8E38800A06EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A6D5FD237CE5A8006D08D6 /* Radomir Tinkov - Gilroy-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-BlackItalic.otf"; sourceTree = "<group>"; };
+		59A6D5FE237CE5A8006D08D6 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		59A6D5FF237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-BoldItalic.otf"; sourceTree = "<group>"; };
+		59A6D600237CE5A9006D08D6 /* UltimaProBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UltimaProBlack.otf; sourceTree = "<group>"; };
+		59A6D601237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		59A6D602237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-UltraLight.otf"; sourceTree = "<group>"; };
+		59A6D603237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Thin.otf"; sourceTree = "<group>"; };
+		59A6D604237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Black.otf"; sourceTree = "<group>"; };
+		59A6D605237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-LightItalic.otf"; sourceTree = "<group>"; };
+		59A6D606237CE5AA006D08D6 /* UltimaProLt-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UltimaProLt-Italic.otf"; sourceTree = "<group>"; };
+		59A6D607237CE5AB006D08D6 /* Radomir Tinkov - Gilroy-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ThinItalic.otf"; sourceTree = "<group>"; };
+		59A6D608237CE5AB006D08D6 /* UltimaPro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UltimaPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		59A6D609237CE5AB006D08D6 /* Radomir Tinkov - Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Light.otf"; sourceTree = "<group>"; };
+		59A6D60A237CE5AB006D08D6 /* UltimaProBlack-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UltimaProBlack-BlackItalic.otf"; sourceTree = "<group>"; };
+		59A6D60B237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Bold.otf"; sourceTree = "<group>"; };
+		59A6D60C237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-RegularItalic.otf"; sourceTree = "<group>"; };
+		59A6D60D237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Heavy.otf"; sourceTree = "<group>"; };
+		59A6D60E237CE5AC006D08D6 /* UltimaProLt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UltimaProLt.otf; sourceTree = "<group>"; };
+		59A6D60F237CE5AD006D08D6 /* UltimaPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UltimaPro-Bold.otf"; sourceTree = "<group>"; };
+		59A6D610237CE5AD006D08D6 /* Radomir Tinkov - Gilroy-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-SemiBold.otf"; sourceTree = "<group>"; };
+		59A6D611237CE5AD006D08D6 /* Radomir Tinkov - Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		59A6D612237CE5AE006D08D6 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		59A6D613237CE5AE006D08D6 /* UltimaPro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UltimaPro.otf; sourceTree = "<group>"; };
+		59A6D614237CE5AE006D08D6 /* UltimaPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UltimaPro-Italic.otf"; sourceTree = "<group>"; };
+		59A6D615237CE5AE006D08D6 /* Radomir Tinkov - Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		59A6D616237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-HeavyItalic.otf"; sourceTree = "<group>"; };
+		59A6D617237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Regular.otf"; sourceTree = "<group>"; };
+		59A6D618237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-MediumItalic.otf"; sourceTree = "<group>"; };
+		7F94360E19102FA0ECC5FA7D /* Pods-XTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTeam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTeam/Pods-XTeam.debug.xcconfig"; sourceTree = "<group>"; };
+		81CD1B9312D2097B48E6AE57 /* Pods_XTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		978877F48D132E009A3E8852 /* Pods-BookMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookMe/Pods-BookMe.release.xcconfig"; sourceTree = "<group>"; };
+		B86A3D83233FB3E700BFBAB1 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		B86A3D97233FEB8100BFBAB1 /* BlurredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredView.swift; sourceTree = "<group>"; };
+		B86E003F2341BB320070ED37 /* StylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistTableViewCell.swift; sourceTree = "<group>"; };
+		B86E00402341BB320070ED37 /* StylistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StylistTableViewCell.xib; sourceTree = "<group>"; };
+		B8E04FF5235AE14100AAB587 /* StylistCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistCalendarViewController.swift; sourceTree = "<group>"; };
+		B8E04FF7235AE33A00AAB587 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8E04FF8235AE33A00AAB587 /* CalendarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		F5126A246F18B626F1492337 /* Pods-BookMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookMe/Pods-BookMe.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C5BDB34DB7EF0DDB03B8BA /* Pods-XTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTeam/Pods-XTeam.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7E828022F8E38600A06EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CD1E635091CFD6FA2A4CC /* Pods_XTeam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F69C8F7636C86AB42F61F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81CD1B9312D2097B48E6AE57 /* Pods_XTeam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F361E0922F8EDE200C825DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F7E828A22F8E38600A06EFF /* Login.storyboard */,
+				2F7E828F22F8E38800A06EFF /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2F361E0B22F8EE0300C825DF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B86E003F2341BB320070ED37 /* StylistTableViewCell.swift */,
+				B86E00402341BB320070ED37 /* StylistTableViewCell.xib */,
+				B8E04FF7235AE33A00AAB587 /* CalendarCollectionViewCell.swift */,
+				B8E04FF8235AE33A00AAB587 /* CalendarCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2F361E0D22F8EE1700C825DF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B86A3D83233FB3E700BFBAB1 /* RoundedView.swift */,
+				B86A3D97233FEB8100BFBAB1 /* BlurredView.swift */,
+				2F05DBF92317853200BBA739 /* Utils.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2F361E0F22F8EE2600C825DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8E04FF5235AE14100AAB587 /* StylistCalendarViewController.swift */,
+				2F361E1922F8F74100C825DF /* LauncherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F7E827A22F8E38600A06EFF = {
+			isa = PBXGroup;
+			children = (
+				2F7E828522F8E38600A06EFF /* XTeam */,
+				2F7E828422F8E38600A06EFF /* Products */,
+				F914B5C752B5D359B8792BF0 /* Pods */,
+				1F69C8F7636C86AB42F61F3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7E828422F8E38600A06EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7E828322F8E38600A06EFF /* XTeam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F7E828522F8E38600A06EFF /* XTeam */ = {
+			isa = PBXGroup;
+			children = (
+				59A6D5C4237CE510006D08D6 /* Fonts */,
+				2F361E0D22F8EE1700C825DF /* Util */,
+				2F361E0B22F8EE0300C825DF /* Cell */,
+				2F361E0F22F8EE2600C825DF /* Controllers */,
+				2F361E0922F8EDE200C825DF /* UI */,
+				2F7E828622F8E38600A06EFF /* AppDelegate.swift */,
+				2F7E828D22F8E38800A06EFF /* Assets.xcassets */,
+				2F7E829222F8E38800A06EFF /* Info.plist */,
+			);
+			path = XTeam;
+			sourceTree = "<group>";
+		};
+		59A6D5C4237CE510006D08D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				59A6D604237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-Black.otf */,
+				59A6D5FD237CE5A8006D08D6 /* Radomir Tinkov - Gilroy-BlackItalic.otf */,
+				59A6D60B237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-Bold.otf */,
+				59A6D5FF237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-BoldItalic.otf */,
+				59A6D611237CE5AD006D08D6 /* Radomir Tinkov - Gilroy-ExtraBold.otf */,
+				59A6D601237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */,
+				59A6D60D237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-Heavy.otf */,
+				59A6D616237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */,
+				59A6D609237CE5AB006D08D6 /* Radomir Tinkov - Gilroy-Light.otf */,
+				59A6D605237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-LightItalic.otf */,
+				59A6D615237CE5AE006D08D6 /* Radomir Tinkov - Gilroy-Medium.otf */,
+				59A6D618237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-MediumItalic.otf */,
+				59A6D617237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Regular.otf */,
+				59A6D60C237CE5AC006D08D6 /* Radomir Tinkov - Gilroy-RegularItalic.otf */,
+				59A6D610237CE5AD006D08D6 /* Radomir Tinkov - Gilroy-SemiBold.otf */,
+				59A6D5FE237CE5A8006D08D6 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */,
+				59A6D603237CE5AA006D08D6 /* Radomir Tinkov - Gilroy-Thin.otf */,
+				59A6D607237CE5AB006D08D6 /* Radomir Tinkov - Gilroy-ThinItalic.otf */,
+				59A6D602237CE5A9006D08D6 /* Radomir Tinkov - Gilroy-UltraLight.otf */,
+				59A6D612237CE5AE006D08D6 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */,
+				59A6D60F237CE5AD006D08D6 /* UltimaPro-Bold.otf */,
+				59A6D608237CE5AB006D08D6 /* UltimaPro-BoldItalic.otf */,
+				59A6D614237CE5AE006D08D6 /* UltimaPro-Italic.otf */,
+				59A6D613237CE5AE006D08D6 /* UltimaPro.otf */,
+				59A6D60A237CE5AB006D08D6 /* UltimaProBlack-BlackItalic.otf */,
+				59A6D600237CE5A9006D08D6 /* UltimaProBlack.otf */,
+				59A6D606237CE5AA006D08D6 /* UltimaProLt-Italic.otf */,
+				59A6D60E237CE5AC006D08D6 /* UltimaProLt.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F914B5C752B5D359B8792BF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5126A246F18B626F1492337 /* Pods-BookMe.debug.xcconfig */,
+				978877F48D132E009A3E8852 /* Pods-BookMe.release.xcconfig */,
+				7F94360E19102FA0ECC5FA7D /* Pods-XTeam.debug.xcconfig */,
+				F5C5BDB34DB7EF0DDB03B8BA /* Pods-XTeam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7E828222F8E38600A06EFF /* XTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7E829522F8E38800A06EFF /* Build configuration list for PBXNativeTarget "XTeam" */;
+			buildPhases = (
+				08ECE7F3BB396CD65B14001D /* [CP] Check Pods Manifest.lock */,
+				2F7E827F22F8E38600A06EFF /* Sources */,
+				2F7E828022F8E38600A06EFF /* Frameworks */,
+				2F7E828122F8E38600A06EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTeam;
+			productName = BookMe;
+			productReference = 2F7E828322F8E38600A06EFF /* XTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7E827B22F8E38600A06EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = paly;
+				TargetAttributes = {
+					2F7E828222F8E38600A06EFF = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2F7E827E22F8E38600A06EFF /* Build configuration list for PBXProject "XTeam" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F7E827A22F8E38600A06EFF;
+			productRefGroup = 2F7E828422F8E38600A06EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7E828222F8E38600A06EFF /* XTeam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7E828122F8E38600A06EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A6D631237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Medium.otf in Resources */,
+				59A6D633237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Regular.otf in Resources */,
+				59A6D625237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Light.otf in Resources */,
+				B86E00422341BB320070ED37 /* StylistTableViewCell.xib in Resources */,
+				59A6D62C237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-SemiBold.otf in Resources */,
+				59A6D626237CE5AF006D08D6 /* UltimaProBlack-BlackItalic.otf in Resources */,
+				59A6D62B237CE5AF006D08D6 /* UltimaPro-Bold.otf in Resources */,
+				59A6D621237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-LightItalic.otf in Resources */,
+				59A6D61F237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Thin.otf in Resources */,
+				59A6D627237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Bold.otf in Resources */,
+				59A6D634237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-MediumItalic.otf in Resources */,
+				59A6D632237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-HeavyItalic.otf in Resources */,
+				B8E04FFA235AE33A00AAB587 /* CalendarCollectionViewCell.xib in Resources */,
+				59A6D61D237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf in Resources */,
+				59A6D624237CE5AF006D08D6 /* UltimaPro-BoldItalic.otf in Resources */,
+				59A6D62F237CE5AF006D08D6 /* UltimaPro.otf in Resources */,
+				59A6D630237CE5AF006D08D6 /* UltimaPro-Italic.otf in Resources */,
+				59A6D629237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Heavy.otf in Resources */,
+				59A6D62A237CE5AF006D08D6 /* UltimaProLt.otf in Resources */,
+				59A6D62E237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf in Resources */,
+				2F7E829122F8E38800A06EFF /* LaunchScreen.storyboard in Resources */,
+				59A6D628237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-RegularItalic.otf in Resources */,
+				2F7E828E22F8E38800A06EFF /* Assets.xcassets in Resources */,
+				59A6D61E237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-UltraLight.otf in Resources */,
+				59A6D61C237CE5AF006D08D6 /* UltimaProBlack.otf in Resources */,
+				59A6D619237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-BlackItalic.otf in Resources */,
+				2F7E828C22F8E38600A06EFF /* Login.storyboard in Resources */,
+				59A6D61A237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf in Resources */,
+				59A6D622237CE5AF006D08D6 /* UltimaProLt-Italic.otf in Resources */,
+				59A6D62D237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-ExtraBold.otf in Resources */,
+				59A6D623237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-ThinItalic.otf in Resources */,
+				59A6D620237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-Black.otf in Resources */,
+				59A6D61B237CE5AF006D08D6 /* Radomir Tinkov - Gilroy-BoldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08ECE7F3BB396CD65B14001D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XTeam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7E827F22F8E38600A06EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E04FF9235AE33A00AAB587 /* CalendarCollectionViewCell.swift in Sources */,
+				B86E00412341BB320070ED37 /* StylistTableViewCell.swift in Sources */,
+				B86A3D84233FB3E700BFBAB1 /* RoundedView.swift in Sources */,
+				B8E04FF6235AE14100AAB587 /* StylistCalendarViewController.swift in Sources */,
+				2F7E828722F8E38600A06EFF /* AppDelegate.swift in Sources */,
+				2F361E1A22F8F74100C825DF /* LauncherViewController.swift in Sources */,
+				2F05DBFA2317853200BBA739 /* Utils.swift in Sources */,
+				B86A3D98233FEB8100BFBAB1 /* BlurredView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F7E828A22F8E38600A06EFF /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7E828B22F8E38600A06EFF /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		2F7E828F22F8E38800A06EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7E829022F8E38800A06EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F7E829322F8E38800A06EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F7E829422F8E38800A06EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F7E829622F8E38800A06EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F94360E19102FA0ECC5FA7D /* Pods-XTeam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYUFY77LW7;
+				INFOPLIST_FILE = "$(SRCROOT)/XTeam/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeye.studio.BookMe;
+				PRODUCT_NAME = XTeam;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F7E829722F8E38800A06EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C5BDB34DB7EF0DDB03B8BA /* Pods-XTeam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYUFY77LW7;
+				INFOPLIST_FILE = "$(SRCROOT)/XTeam/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeye.studio.BookMe;
+				PRODUCT_NAME = XTeam;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7E827E22F8E38600A06EFF /* Build configuration list for PBXProject "XTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7E829322F8E38800A06EFF /* Debug */,
+				2F7E829422F8E38800A06EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7E829522F8E38800A06EFF /* Build configuration list for PBXNativeTarget "XTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7E829622F8E38800A06EFF /* Debug */,
+				2F7E829722F8E38800A06EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7E827B22F8E38600A06EFF /* Project object */;
+}
